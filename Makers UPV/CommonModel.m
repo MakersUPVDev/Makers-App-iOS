@@ -7,21 +7,31 @@
 //
 
 #import "CommonModel.h"
+#import <Parse/PFObject.h>
+#import <Parse/PFRelation.h>
+#import <Parse/PFACL.h>
 
 @implementation CommonModel
 
-// Specify default values for properties
++ (NSString *)primaryKey {
+    return @"objectId";
+}
 
-//+ (NSDictionary *)defaultPropertyValues
-//{
-//    return @{};
-//}
 
-// Specify properties to ignore (Realm won't persist these)
 
-//+ (NSArray *)ignoredProperties
-//{
-//    return @[];
-//}
-
+-(instancetype)initWithObject:(PFObject*)object{
+    self = [super init];
+    self.objectId = object.objectId;
+    
+    for(id key in [object allKeys]){
+        if([[object objectForKey:key] class]==[PFRelation class] || [[object objectForKey:key] class]==[PFACL class]){
+            
+        }else{
+            [self setValue:[object objectForKey:key] forKey:key];
+        }
+    }
+    
+    return self;
+    
+}
 @end

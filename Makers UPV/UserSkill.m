@@ -10,6 +10,7 @@
 
 @implementation UserSkill
 
+
 // Specify default values for properties
 
 //+ (NSDictionary *)defaultPropertyValues

@@ -7,9 +7,23 @@
 //
 
 #import <Realm/Realm.h>
+#import "User.h"
+#import "Skill.h"
+#import "Image.h"
+#import "CommonModel.h"
 
-@interface Project : RLMObject
-<# Add properties here to define the model #>
+@interface Project : CommonModel
+@property NSString* objectId;
+@property NSString* name;
+@property User* creator;
+@property NSDate* date_end_join;
+@property NSNumber<RLMInt>* duration;
+@property RLMArray<Skill>* skills;
+@property NSNumber<RLMInt>* members_limit;
+@property RLMArray<Image>* images;
+@property RLMArray<User>* members;
+@property NSString* video;
+@property NSString* desc;
 @end
 
 // This protocol enables typed collections. i.e.:

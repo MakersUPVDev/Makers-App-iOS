@@ -7,9 +7,16 @@
 //
 
 #import <Realm/Realm.h>
+#import "CommonModel.h"
 
-@interface UserSkill : RLMObject
-<# Add properties here to define the model #>
+@class User;
+@class Skill;
+
+@interface UserSkill : CommonModel
+@property Skill* skill;
+@property User *user;
+@property NSNumber<RLMInt>* level;
+
 @end
 
 // This protocol enables typed collections. i.e.:

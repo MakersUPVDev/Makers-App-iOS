@@ -7,9 +7,11 @@
 //
 
 #import <Realm/Realm.h>
+#import "CommonModel.h"
 
 @interface Image : RLMObject
-<# Add properties here to define the model #>
+@property NSString* image;
+
 @end
 
 // This protocol enables typed collections. i.e.:

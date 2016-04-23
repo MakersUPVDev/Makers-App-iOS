@@ -7,9 +7,27 @@
 //
 
 #import <Realm/Realm.h>
+#import "Image.h"
+#import "UserSkill.h"
+#import <Parse/PFObject.h>
+#import "CommonModel.h"
 
-@interface User : RLMObject
-<# Add properties here to define the model #>
+@class UserSkill;
+@interface User : CommonModel
+@property NSString* email;
+@property NSDate* birthdate;
+@property NSString* name;
+@property NSString* username;
+@property NSString* surname;
+@property Image* avatar;
+@property NSDate* register_date;
+@property NSString* degree;
+@property NSString* interests;
+@property NSDate* last_access;
+@property RLMArray<UserSkill *><UserSkill> *skills;
+
+-(instancetype)initWithObject:(PFObject*)object;
+
 @end
 
 // This protocol enables typed collections. i.e.:

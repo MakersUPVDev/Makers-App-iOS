@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Realm/RLMRealm.h>
 
 @interface DataManager : NSObject
+- (void) saveUserWithId:(NSString*)objectId successBlock:(void (^)(id responseObject))successBlock failureblock:(void (^)(id responseObject))failureBlock;
 
+@property RLMRealm * realm;
++ (id)sharedInstance;
 @end

@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E489A001CCBC6D300C060AE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4899FE1CCBC6D300C060AE /* LoginViewController.m */; };
+		6E489A011CCBC6D300C060AE /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E4899FF1CCBC6D300C060AE /* LoginViewController.xib */; };
+		6E489A061CCBDB8100C060AE /* CommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E489A051CCBDB8100C060AE /* CommonModel.m */; };
 		6E4BDE111CCBB027005E68A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE101CCBB027005E68A5 /* main.m */; };
 		6E4BDE141CCBB027005E68A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE131CCBB027005E68A5 /* AppDelegate.m */; };
-		6E4BDE171CCBB027005E68A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE161CCBB027005E68A5 /* ViewController.m */; };
-		6E4BDE1A1CCBB027005E68A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BDE181CCBB027005E68A5 /* Main.storyboard */; };
 		6E4BDE1C1CCBB027005E68A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BDE1B1CCBB027005E68A5 /* Assets.xcassets */; };
-		6E4BDE1F1CCBB027005E68A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BDE1D1CCBB027005E68A5 /* LaunchScreen.storyboard */; };
+		6E4BDE2D1CCBB57F005E68A5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE2C1CCBB57F005E68A5 /* User.m */; };
+		6E4BDE331CCBB64B005E68A5 /* Skill.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE321CCBB64B005E68A5 /* Skill.m */; };
+		6E4BDE361CCBB67A005E68A5 /* UserSkill.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE351CCBB67A005E68A5 /* UserSkill.m */; };
+		6E4BDE3A1CCBB70E005E68A5 /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE391CCBB70E005E68A5 /* Project.m */; };
+		6E4BDE3E1CCBB798005E68A5 /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE3D1CCBB798005E68A5 /* Image.m */; };
+		6E4BDE421CCBB810005E68A5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE411CCBB810005E68A5 /* Comment.m */; };
+		6E4BDE451CCBB981005E68A5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BDE441CCBB981005E68A5 /* DataManager.m */; };
+		D8C4EEB0D428C9AA7EBCC3E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCAD732F2203F38EB962FE0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5504008AC7D07869B4E28DFA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6E4899FD1CCBC6D300C060AE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6E4899FE1CCBC6D300C060AE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6E4899FF1CCBC6D300C060AE /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		6E489A041CCBDB8100C060AE /* CommonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonModel.h; sourceTree = "<group>"; };
+		6E489A051CCBDB8100C060AE /* CommonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonModel.m; sourceTree = "<group>"; };
 		6E4BDE0C1CCBB026005E68A5 /* Makers UPV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Makers UPV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4BDE101CCBB027005E68A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E4BDE121CCBB027005E68A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E4BDE131CCBB027005E68A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6E4BDE151CCBB027005E68A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6E4BDE161CCBB027005E68A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6E4BDE191CCBB027005E68A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E4BDE1B1CCBB027005E68A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E4BDE1E1CCBB027005E68A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E4BDE201CCBB027005E68A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4BDE2B1CCBB57F005E68A5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		6E4BDE2C1CCBB57F005E68A5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6E4BDE311CCBB64B005E68A5 /* Skill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill.h; sourceTree = "<group>"; };
+		6E4BDE321CCBB64B005E68A5 /* Skill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill.m; sourceTree = "<group>"; };
+		6E4BDE341CCBB67A005E68A5 /* UserSkill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSkill.h; sourceTree = "<group>"; };
+		6E4BDE351CCBB67A005E68A5 /* UserSkill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSkill.m; sourceTree = "<group>"; };
+		6E4BDE381CCBB70E005E68A5 /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		6E4BDE391CCBB70E005E68A5 /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		6E4BDE3C1CCBB798005E68A5 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		6E4BDE3D1CCBB798005E68A5 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		6E4BDE401CCBB810005E68A5 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		6E4BDE411CCBB810005E68A5 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		6E4BDE431CCBB981005E68A5 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		6E4BDE441CCBB981005E68A5 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		A294A14F16C96A8ED1235E76 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CBCAD732F2203F38EB962FE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C4EEB0D428C9AA7EBCC3E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E5E0417694A832D4BBE5C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAD732F2203F38EB962FE0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E4899FC1CCBC6BB00C060AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E489A021CCBC6D600C060AE /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6E489A021CCBC6D600C060AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6E4899FD1CCBC6D300C060AE /* LoginViewController.h */,
+				6E4899FE1CCBC6D300C060AE /* LoginViewController.m */,
+				6E4899FF1CCBC6D300C060AE /* LoginViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		6E4BDE031CCBB026005E68A5 = {
 			isa = PBXGroup;
 			children = (
 				6E4BDE0E1CCBB027005E68A5 /* Makers UPV */,
 				6E4BDE0D1CCBB026005E68A5 /* Products */,
+				F77065620F5DBA2B4688B72F /* Pods */,
+				25E5E0417694A832D4BBE5C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +113,12 @@
 		6E4BDE0E1CCBB027005E68A5 /* Makers UPV */ = {
 			isa = PBXGroup;
 			children = (
+				6E4899FC1CCBC6BB00C060AE /* Controllers */,
+				6E4BDE2A1CCBB53F005E68A5 /* Models */,
+				6E4BDE261CCBB27B005E68A5 /* Manager */,
 				6E4BDE121CCBB027005E68A5 /* AppDelegate.h */,
 				6E4BDE131CCBB027005E68A5 /* AppDelegate.m */,
-				6E4BDE151CCBB027005E68A5 /* ViewController.h */,
-				6E4BDE161CCBB027005E68A5 /* ViewController.m */,
-				6E4BDE181CCBB027005E68A5 /* Main.storyboard */,
 				6E4BDE1B1CCBB027005E68A5 /* Assets.xcassets */,
-				6E4BDE1D1CCBB027005E68A5 /* LaunchScreen.storyboard */,
 				6E4BDE201CCBB027005E68A5 /* Info.plist */,
 				6E4BDE0F1CCBB027005E68A5 /* Supporting Files */,
 			);
@@ -79,6 +133,93 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6E4BDE261CCBB27B005E68A5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE431CCBB981005E68A5 /* DataManager.h */,
+				6E4BDE441CCBB981005E68A5 /* DataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		6E4BDE2A1CCBB53F005E68A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E489A041CCBDB8100C060AE /* CommonModel.h */,
+				6E489A051CCBDB8100C060AE /* CommonModel.m */,
+				6E4BDE3F1CCBB7F6005E68A5 /* Comment */,
+				6E4BDE3B1CCBB792005E68A5 /* Image */,
+				6E4BDE371CCBB708005E68A5 /* Project */,
+				6E4BDE301CCBB63D005E68A5 /* Skill */,
+				6E4BDE2F1CCBB634005E68A5 /* UserSkill */,
+				6E4BDE2E1CCBB62D005E68A5 /* User */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6E4BDE2E1CCBB62D005E68A5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE2B1CCBB57F005E68A5 /* User.h */,
+				6E4BDE2C1CCBB57F005E68A5 /* User.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		6E4BDE2F1CCBB634005E68A5 /* UserSkill */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE341CCBB67A005E68A5 /* UserSkill.h */,
+				6E4BDE351CCBB67A005E68A5 /* UserSkill.m */,
+			);
+			name = UserSkill;
+			sourceTree = "<group>";
+		};
+		6E4BDE301CCBB63D005E68A5 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE311CCBB64B005E68A5 /* Skill.h */,
+				6E4BDE321CCBB64B005E68A5 /* Skill.m */,
+			);
+			name = Skill;
+			sourceTree = "<group>";
+		};
+		6E4BDE371CCBB708005E68A5 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE381CCBB70E005E68A5 /* Project.h */,
+				6E4BDE391CCBB70E005E68A5 /* Project.m */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		6E4BDE3B1CCBB792005E68A5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE3C1CCBB798005E68A5 /* Image.h */,
+				6E4BDE3D1CCBB798005E68A5 /* Image.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		6E4BDE3F1CCBB7F6005E68A5 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BDE401CCBB810005E68A5 /* Comment.h */,
+				6E4BDE411CCBB810005E68A5 /* Comment.m */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		F77065620F5DBA2B4688B72F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A294A14F16C96A8ED1235E76 /* Pods.debug.xcconfig */,
+				5504008AC7D07869B4E28DFA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E4BDE231CCBB027005E68A5 /* Build configuration list for PBXNativeTarget "Makers UPV" */;
 			buildPhases = (
+				3972944DDC091E9C8F626DAA /* Check Pods Manifest.lock */,
 				6E4BDE081CCBB026005E68A5 /* Sources */,
 				6E4BDE091CCBB026005E68A5 /* Frameworks */,
 				6E4BDE0A1CCBB026005E68A5 /* Resources */,
+				6F674E2F05D100CAB1AFACA9 /* Embed Pods Frameworks */,
+				B9D8F37E441EFFCB614DB97D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,45 +280,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4BDE1F1CCBB027005E68A5 /* LaunchScreen.storyboard in Resources */,
+				6E489A011CCBC6D300C060AE /* LoginViewController.xib in Resources */,
 				6E4BDE1C1CCBB027005E68A5 /* Assets.xcassets in Resources */,
-				6E4BDE1A1CCBB027005E68A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3972944DDC091E9C8F626DAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F674E2F05D100CAB1AFACA9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D8F37E441EFFCB614DB97D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E4BDE081CCBB026005E68A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4BDE171CCBB027005E68A5 /* ViewController.m in Sources */,
 				6E4BDE141CCBB027005E68A5 /* AppDelegate.m in Sources */,
+				6E4BDE331CCBB64B005E68A5 /* Skill.m in Sources */,
 				6E4BDE111CCBB027005E68A5 /* main.m in Sources */,
+				6E4BDE3A1CCBB70E005E68A5 /* Project.m in Sources */,
+				6E489A001CCBC6D300C060AE /* LoginViewController.m in Sources */,
+				6E489A061CCBDB8100C060AE /* CommonModel.m in Sources */,
+				6E4BDE2D1CCBB57F005E68A5 /* User.m in Sources */,
+				6E4BDE361CCBB67A005E68A5 /* UserSkill.m in Sources */,
+				6E4BDE3E1CCBB798005E68A5 /* Image.m in Sources */,
+				6E4BDE451CCBB981005E68A5 /* DataManager.m in Sources */,
+				6E4BDE421CCBB810005E68A5 /* Comment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6E4BDE181CCBB027005E68A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E4BDE191CCBB027005E68A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E4BDE1D1CCBB027005E68A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E4BDE1E1CCBB027005E68A5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6E4BDE211CCBB027005E68A5 /* Debug */ = {
@@ -261,9 +441,11 @@
 		};
 		6E4BDE241CCBB027005E68A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A294A14F16C96A8ED1235E76 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Makers UPV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makers.Makers-UPV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +454,11 @@
 		};
 		6E4BDE251CCBB027005E68A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5504008AC7D07869B4E28DFA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Makers UPV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makers.Makers-UPV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +484,7 @@
 				6E4BDE251CCBB027005E68A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
