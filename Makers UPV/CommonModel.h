@@ -7,9 +7,12 @@
 //
 
 #import <Realm/Realm.h>
+#import <Parse/Parse.h>
 
 @interface CommonModel : RLMObject
 @property NSString* objectId;
+-(instancetype)initWithObject:(PFObject*)object;
+-(void)makeRelations:(PFObject*)object;
 @end
 
 // This protocol enables typed collections. i.e.:

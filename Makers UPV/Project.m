@@ -10,5 +10,7 @@
 
 @implementation Project
 
-
+-(NSArray*)relations{
+    return @[@{@"creator":@"User"}, @{@"images":@"Image"}, @{@"skills":@"Skill"}, @{@"members":@"User"}];
+}
 @end

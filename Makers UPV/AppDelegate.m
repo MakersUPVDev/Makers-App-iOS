@@ -10,6 +10,8 @@
 #import <Parse/Parse.h>
 #import "DataManager.h"
 #import "LoginViewController.h"
+#import <Parse/Parse.h>
+#import "ProjectsViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,15 +22,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
+    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
         configuration.applicationId = @"MGj3CWWXtBenD6OhI4IkKIN8DcfFD8GprJmZKnw5";
         configuration.server = @"https://parseapi.back4app.com/";
         configuration.clientKey=@"03ZOM40IKIQrXVbQupsq77kreK0WcTRZcu2SvrDd";
     }]];
-   
-    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [LoginViewController new];
+    if([PFUser currentUser]!=nil){
+        self.window.rootViewController = [self getMain];
+    }else{
+        self.window.rootViewController = [LoginViewController new];
+    }
     [self.window makeKeyAndVisible];
 
     
@@ -36,4 +40,9 @@
     return YES;
 }
 
+-(UIViewController*)getMain{
+    UITabBarController* tab = [[UITabBarController alloc] init];
+    tab.viewControllers = @[[[UINavigationController alloc] initWithRootViewController:[ProjectsViewController new]]];
+    return tab;
+}
 @end

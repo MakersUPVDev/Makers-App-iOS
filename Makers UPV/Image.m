@@ -9,6 +9,7 @@
 #import "Image.h"
 
 @implementation Image
-
-
+-(NSArray*)exclude{
+    return @[@"image"];
+}
 @end

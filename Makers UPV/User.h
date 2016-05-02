@@ -24,9 +24,9 @@
 @property NSString* degree;
 @property NSString* interests;
 @property NSDate* last_access;
+@property BOOL active;
 @property RLMArray<UserSkill *><UserSkill> *skills;
 
--(instancetype)initWithObject:(PFObject*)object;
 
 @end
 

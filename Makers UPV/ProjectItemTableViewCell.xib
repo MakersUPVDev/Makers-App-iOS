@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="239" id="KGk-i7-Jjw" customClass="ProjectItemTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="239"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="238"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ad-3Y-yfh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="bwZ-bc-li4"/>
+                        </constraints>
+                    </scrollView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título del proyecto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GkU-CJ-epe">
+                        <rect key="frame" x="8" y="136" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="EER-Ke-DsC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Descripción del proyecto" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdI-oy-pj5">
+                        <rect key="frame" x="8" y="165" width="304" height="65"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tih-zL-i0o">
+                        <rect key="frame" x="8" y="78" width="304" height="41"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="5uD-37-UEP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GkU-CJ-epe" secondAttribute="trailing" constant="8" id="2Xd-nm-kco"/>
+                    <constraint firstItem="2ad-3Y-yfh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8Zx-Ng-CaB"/>
+                    <constraint firstItem="Tih-zL-i0o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="GMp-3E-unh"/>
+                    <constraint firstItem="AdI-oy-pj5" firstAttribute="top" secondItem="GkU-CJ-epe" secondAttribute="bottom" constant="8" id="Upe-ZI-Z87"/>
+                    <constraint firstAttribute="trailing" secondItem="AdI-oy-pj5" secondAttribute="trailing" constant="8" id="XbL-jo-4eu"/>
+                    <constraint firstItem="GkU-CJ-epe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="aYp-EP-5Pg"/>
+                    <constraint firstAttribute="trailing" secondItem="2ad-3Y-yfh" secondAttribute="trailing" id="ikQ-lM-ANN"/>
+                    <constraint firstAttribute="trailing" secondItem="Tih-zL-i0o" secondAttribute="trailing" constant="8" id="mxs-h9-bKc"/>
+                    <constraint firstItem="AdI-oy-pj5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="oXk-iZ-6Bc"/>
+                    <constraint firstItem="2ad-3Y-yfh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qhd-h4-c8h"/>
+                    <constraint firstItem="GkU-CJ-epe" firstAttribute="top" secondItem="2ad-3Y-yfh" secondAttribute="bottom" constant="8" id="t5B-tS-7Ik"/>
+                    <constraint firstItem="Tih-zL-i0o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="78" id="uXW-bO-5C4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="AdI-oy-pj5" id="2sh-fM-QkG"/>
+                <outlet property="scrollView" destination="2ad-3Y-yfh" id="cHv-Jz-uL2"/>
+                <outlet property="skillsView" destination="Tih-zL-i0o" id="H0P-tW-3xt"/>
+                <outlet property="titleLabel" destination="GkU-CJ-epe" id="ynk-XX-Rk0"/>
+            </connections>
+            <point key="canvasLocation" x="243" y="348.5"/>
+        </tableViewCell>
+    </objects>
+</document>

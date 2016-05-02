@@ -13,7 +13,6 @@
 #import "CommonModel.h"
 
 @interface Project : CommonModel
-@property NSString* objectId;
 @property NSString* name;
 @property User* creator;
 @property NSDate* date_end_join;

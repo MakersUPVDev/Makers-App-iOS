@@ -8,10 +8,10 @@
 
 #import <Realm/Realm.h>
 #import "CommonModel.h"
+@class Image;
 
 @interface Skill : CommonModel
 @property NSString* name;
-@property NSString* icon;
 
 @end
 

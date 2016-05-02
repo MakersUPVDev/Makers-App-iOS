@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "DataManager.h"
-
+#import <Parse/Parse.h>
 @interface LoginViewController ()
 
 @end
@@ -18,12 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[DataManager sharedInstance] saveUserWithId:@"5ELnmryB2g" successBlock:^(id responseObject) {
-    } failureblock:^(id responseObject) {
-    }];
     
-    }
+    
+}
 
 
 
+- (IBAction)clickLogin:(id)sender {
+    [PFUser logInWithUsernameInBackground:_userField.text password:_passwordField.text
+                                    block:^(PFUser *user, NSError *error) {
+                if (user) {
+                    
+                } else {
+                }
+    }];
+
+}
 @end

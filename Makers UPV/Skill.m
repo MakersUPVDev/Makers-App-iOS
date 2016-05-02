@@ -10,5 +10,8 @@
 
 @implementation Skill
 
+-(NSArray*)exclude{
+    return @[@"icon"];
+}
 
 @end
